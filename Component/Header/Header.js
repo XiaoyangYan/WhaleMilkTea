@@ -33,7 +33,7 @@ function Header() {
                     <Navbar.Brand className={navbarBrandClasses}></Navbar.Brand>
                     <Navbar.Brand className={navbarBrandTextClasses}></Navbar.Brand>
                     <Nav className={clsx(routerClass.positions)}>
-                        <NavItems mapArr={socialRouters} width="80px" height="80px" backgroundSize="contain"/>
+                        <NavItems mapArr={socialRouters} width="50px" height="50px" backgroundSize="contain"/>
                     </Nav>
                 </div>
                 <div className={subHeaderClasses}>
